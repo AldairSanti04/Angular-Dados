@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   dado1 = "../assets/img/dice1.png";
   dado2 = "../assets/img/dice2.png";
-  numero1: number = 0;
-  numero2: number = 0;
+  numero1: number = 1;
+  numero2: number = 2;
 
   tirarDados(): void{
     this.numero1 = Math.round(Math.random() * 5) + 1;
